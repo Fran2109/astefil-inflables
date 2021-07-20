@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import '@elastic/eui/dist/eui_theme_amsterdam_light.css';
+import './App.css';
+
 
 import {
   EuiButton,
