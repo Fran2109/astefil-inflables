@@ -1,10 +1,10 @@
 import React from 'react';
-import './Footer.js';
+import './Footer.css';
 
 const Footer = () => {
     return (
         <div className="footer">
-            <div className="contacto">
+            <div className="contact">
                 <b>
                     <i>Datos de contacto</i>
                 </b>
@@ -27,7 +27,7 @@ const Footer = () => {
                     <b>astefil.inflables@gmail.com</b>
                 </a>
             </div>
-            <div className="seguinos">
+            <div className="follow">
                 <b>
                     <i>
                         Seguinos en nuetras Redes
@@ -47,7 +47,7 @@ const Footer = () => {
                 </a>
             </div> {/* Seguinos */}
 
-            <div className="consultas">
+            <div className="ask">
                 <b>
                     <i>
                         Consultas   

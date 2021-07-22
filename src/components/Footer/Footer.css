@@ -12,7 +12,7 @@
     /* align-items: flex-start; */
 }
 
-.footer .contacto{
+.footer .contact{
     text-align: center;
     width: 30%;
     min-width: 200px;
@@ -24,16 +24,16 @@
     justify-content: center;
 }
 
-.footer .contacto a{
+.footer .contact a{
     text-decoration: none;
     color:#f0b9ce;
 }
 
-.footer .contacto a:hover{
+.footer .contact a:hover{
     color: blue;
 }
 
-.footer .seguinos{
+.footer .follow{
     text-align: center;
     width: 30%;
     min-width: 150px;
@@ -43,16 +43,16 @@
     justify-content: center;
 }
 
-.footer .seguinos a{
+.footer .follow a{
     text-decoration: none;
     color:#f0b9ce;
 }
 
-.footer .seguinos a:hover{
+.footer .follow a:hover{
     color:blue;
 }
 
-.footer .consultas{
+.footer .ask{
     text-align: center;
     width: 30%;
     min-width: 150px;
@@ -62,16 +62,16 @@
     justify-content: center;
 }
 
-.footer .consultas a{
+.footer .ask a{
     text-decoration: none;
     color:#f0b9ce;
 }
 
-.footer .consultas a:hover{
+.footer .ask a:hover{
     color: blue;
 }
 
-.footer .consultas p{
+.footer .ask p{
     color:#f0b9ce;
 }
 
@@ -81,15 +81,15 @@
         align-items: center;
     }
     
-    .footer .contacto{
+    .footer .contact{
         width: 100%;
     }
 
-    .footer .seguinos{
+    .footer .follow{
         width: 100%;
     }
 
-    .footer .consultas{
+    .footer .ask{
         width: 100%;
     }
 }
