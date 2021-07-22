@@ -1,0 +1,8 @@
+.euiButton--primary {
+    color: white;
+    background-color: #1d2d50; 
+}
+
+.euiButton--primary:hover, .euiButton--primary button{
+    background-color: #1d2d50; 
+}

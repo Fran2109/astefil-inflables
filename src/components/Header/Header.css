@@ -45,16 +45,19 @@
     color: rgb(164,255,255);
     padding:10px;
     border-radius: 15px;
-    
+
     /* Flex */
     display: flex;
-    flex-grow: 1; 
+    /* flex-grow: 1;  */
     flex-direction: column;
     justify-content: center;
 }
 
 .header .navbar a:hover{
     background: rgb(23, 121, 167);
+    position: relative;
+    top: 5px;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 800px) {
@@ -78,5 +81,6 @@
     .header .navbar{
         width: 100%;
         flex-wrap: wrap;
+        margin-bottom:20px;
     }
 }
