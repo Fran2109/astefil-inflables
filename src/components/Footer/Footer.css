@@ -2,7 +2,7 @@
 .footer{
     background: #1e5f74;
     width: 100%;
-    bottom: 0;
+    padding: 25px;
 
     /* Flex */
     display: flex;

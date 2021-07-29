@@ -7,7 +7,7 @@ import {
 } from '@elastic/eui';
 import './ListOptions.css'
 
-export default () => {
+const ListOptions = () => {
   const [isPopoverOpen, setPopover] = useState(false);
 
   const onButtonClick = () => {
@@ -193,3 +193,5 @@ export default () => {
     </EuiPopover>
   );
 };
+
+export default ListOptions;
