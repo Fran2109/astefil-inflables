@@ -1,23 +1,17 @@
-.bottom{
-    display: flex;
-    flex-direction: column;
-}
-
-
-.bottom .footer{
+.footer{
     background: #1e5f74;
     width: 100%;
-    padding: 25px;
+    padding: 25px 0px;
 
     /* Flex */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     /* align-items: flex-start; */
 }
 
-.bottom .footer .contact{
+.footer .contact{
     text-align: center;
     width: 30%;
     min-width: 200px;
@@ -29,16 +23,17 @@
     justify-content: center;
 }
 
-.bottom .footer .contact a{
+.footer .contact a{
+    width: auto;
     text-decoration: none;
     color:#f0b9ce;
 }
 
-.bottom .footer .contact a:hover{
+.footer .contact a:hover{
     color: blue;
 }
 
-.bottom .footer .follow{
+.footer .follow{
     text-align: center;
     width: 30%;
     min-width: 150px;
@@ -48,16 +43,16 @@
     justify-content: center;
 }
 
-.bottom .footer .follow a{
+.footer .follow a{
     text-decoration: none;
     color:#f0b9ce;
 }
 
-.bottom .footer .follow a:hover{
+.footer .follow a:hover{
     color:blue;
 }
 
-.bottom .footer .ask{
+.footer .ask{
     text-align: center;
     width: 30%;
     min-width: 150px;
@@ -67,34 +62,34 @@
     justify-content: center;
 }
 
-.bottom .footer .ask a{
+.footer .ask a{
     text-decoration: none;
     color:#f0b9ce;
 }
 
-.bottom .footer .ask a:hover{
+.footer .ask a:hover{
     color: blue;
 }
 
-.bottom .footer .ask p{
+.footer .ask p{
     color:#f0b9ce;
 }
 
 @media screen and (max-width: 800px) {
-    .bottom .footer{
+    .footer{
         flex-direction: column;
         align-items: center;
     }
     
-    .bottom .footer .contact{
+    .footer .contact{
         width: 100%;
     }
 
-    .bottom .footer .follow{
+    .footer .follow{
         width: 100%;
     }
 
-    .bottom .footer .ask{
+    .footer .ask{
         width: 100%;
     }
 }
