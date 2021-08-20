@@ -8,7 +8,6 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    /* align-items: flex-start; */
 }
 
 .footer .contact{
@@ -23,14 +22,33 @@
     justify-content: center;
 }
 
-.footer .contact a{
+.footer .contact span{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.footer .contact .phones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.footer .contact .phones a{
     width: auto;
     text-decoration: none;
     color:#f0b9ce;
 }
 
-.footer .contact a:hover{
+.footer .contact .phones a:hover{
     color: blue;
+}
+
+.footer .contact .phones a span{
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .footer .follow{
