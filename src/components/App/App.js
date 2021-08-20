@@ -2,6 +2,7 @@ import '@elastic/eui/dist/eui_theme_amsterdam_dark.css';/*
 import '@elastic/eui/dist/eui_theme_amsterdam_light.css'; */
 import './App.css';
 import Header from './../Header/Header';
+import PreFooter from './../PreFooter/PreFooter';
 import Footer from './../Footer/Footer';
 import Main from './../Main/Main';
 import Zone from './../Zone/Zone';
@@ -32,6 +33,7 @@ const App = () => {
               </svg>
             </a>   
           </div>
+        {/* <PreFooter /> */}
         <Footer/>
       </HashRouter>       
     </div>

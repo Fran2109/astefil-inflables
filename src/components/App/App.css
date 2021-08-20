@@ -1,8 +1,9 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0;/* 
     box-sizing: content-box;
-    font-family: cursive;
+    font-family: cursive; */
+    
 }
 
 
@@ -10,7 +11,8 @@
     width: 100%;
     height: 100%;
     background-color: rgb(55, 125, 216);
-
+    min-height: 100vh;
+    
     /* Flex */
     display: flex;
     flex-direction: column;
