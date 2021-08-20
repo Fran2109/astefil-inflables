@@ -1,0 +1,118 @@
+.consultation{
+    width: 90%;
+    padding: 25px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.consultation .form{
+    text-align: start;
+    width: 65%;
+    padding: 0px 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.consultation .form .title{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.consultation .form label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.consultation .form .formConsultation .firstLine, .secondLine, .thirdLine, .fourtLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.consultation .form .formConsultation .firstLine .name, .subname{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.consultation .form .formConsultation .secondLine .location, .street, .height{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.consultation .form .formConsultation .thirdLine .mail, .phone{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.consultation .form .formConsultation .fourtLine .matter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/*
+.seccion_main .consulta .formulario .segunda_linea{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.seccion_main .consulta .formulario .segunda_linea input{
+    width: 295px;
+}
+
+.seccion_main .consulta .formulario .segunda_linea .direccion{
+    padding: 5px;
+}
+
+.seccion_main .consulta .formulario .segunda_linea .localidad{
+    padding: 5px;
+}
+
+.seccion_main .consulta .formulario .tercera_linea .mail{
+    padding: 5px;
+}
+
+.seccion_main .consulta .formulario .cuarta_linea .telefono{
+    padding: 5px;
+}
+
+.seccion_main .consulta .formulario .quinta_linea .asunto{
+    padding: 5px;
+}
+
+.seccion_main .consulta .formulario .quinta_linea textarea{
+    width: 600px;
+    height: 100px;
+    background-color: rgb(204, 195, 185);
+}
+
+.seccion_main .consulta .contact{
+    text-align: left;
+    width: 35%;
+
+    padding: 0px 0px 0px 75px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.seccion_main .consulta .contact a{
+    text-decoration: none;
+    color: black;
+}
+
+.seccion_main .consulta .contact a:hover{
+    color: blue;
+} */

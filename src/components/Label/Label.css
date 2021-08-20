@@ -1,0 +1,16 @@
+.euiFormControlLayout {
+    max-width: none;
+    width: 100%;
+    height: 40px;
+}
+
+.euiFormControlLayout .euiFormControlLayout__childrenWrapper {
+    position: static;
+}
+
+.euiFormControlLayout .euiFormControlLayout__childrenWrapper .euiFieldText {
+    max-width: none;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}

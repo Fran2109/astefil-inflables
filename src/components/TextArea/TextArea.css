@@ -1,0 +1,9 @@
+.euiTextArea {
+    max-width: none;
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+}
+
+.resizeVertical {
+    resize: none;
+}

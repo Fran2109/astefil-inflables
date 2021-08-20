@@ -1,25 +1,27 @@
 import React from 'react';
 import logo from './../../assets/images/logo.png';
 import ListOptions from './../ListOptions/ListOptions';
+import { Link } from 'react-router-dom';
+
 import './Header.css';
 
 const Header = () => {
     return(
             <div className="header">
                 <div className="logo">
-                    <a href="/">
+                    <Link to="/">
                         <img src={logo} alt="logo" />
-                    </a>
+                    </Link>
                 </div>
                           
                 <div className="navbar">
                     <a href="/">Inicio</a>
                     <a href="/">Alquiler</a>
-                    <a href="/">Zona de atención</a>
+                    <Link to="/Zona_de_Atencion">Zona de atención</Link>
                     <a><ListOptions/></a>
                     <a href="/">Nosotros</a>
                     <a href="/">Novedades</a>
-                    <a href="/">Contacto</a>
+                    <Link to="/Consulta">Consulta</Link>
                 </div>
             </div>
     )

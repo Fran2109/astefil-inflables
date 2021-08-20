@@ -1,5 +1,10 @@
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
 
-.footer{
+
+.bottom .footer{
     background: #1e5f74;
     width: 100%;
     padding: 25px;
@@ -12,7 +17,7 @@
     /* align-items: flex-start; */
 }
 
-.footer .contact{
+.bottom .footer .contact{
     text-align: center;
     width: 30%;
     min-width: 200px;
@@ -24,16 +29,16 @@
     justify-content: center;
 }
 
-.footer .contact a{
+.bottom .footer .contact a{
     text-decoration: none;
     color:#f0b9ce;
 }
 
-.footer .contact a:hover{
+.bottom .footer .contact a:hover{
     color: blue;
 }
 
-.footer .follow{
+.bottom .footer .follow{
     text-align: center;
     width: 30%;
     min-width: 150px;
@@ -43,16 +48,16 @@
     justify-content: center;
 }
 
-.footer .follow a{
+.bottom .footer .follow a{
     text-decoration: none;
     color:#f0b9ce;
 }
 
-.footer .follow a:hover{
+.bottom .footer .follow a:hover{
     color:blue;
 }
 
-.footer .ask{
+.bottom .footer .ask{
     text-align: center;
     width: 30%;
     min-width: 150px;
@@ -62,34 +67,34 @@
     justify-content: center;
 }
 
-.footer .ask a{
+.bottom .footer .ask a{
     text-decoration: none;
     color:#f0b9ce;
 }
 
-.footer .ask a:hover{
+.bottom .footer .ask a:hover{
     color: blue;
 }
 
-.footer .ask p{
+.bottom .footer .ask p{
     color:#f0b9ce;
 }
 
 @media screen and (max-width: 800px) {
-    .footer{
+    .bottom .footer{
         flex-direction: column;
         align-items: center;
     }
     
-    .footer .contact{
+    .bottom .footer .contact{
         width: 100%;
     }
 
-    .footer .follow{
+    .bottom .footer .follow{
         width: 100%;
     }
 
-    .footer .ask{
+    .bottom .footer .ask{
         width: 100%;
     }
 }
